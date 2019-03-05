@@ -6,3 +6,11 @@
 		</a>
 	</li>
 </ul>
+<div>
+	<label>Hero Name:
+		<input #heroName />
+	</label>
+	<button (click)="add(heroName.value); heroName.value=''">
+		Add
+	</button>
+</div>
